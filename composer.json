@@ -1,0 +1,14 @@
+{
+    "author": "turkishjoe",
+    "description": "PHP Cache",
+    "keywords": [
+      "php",
+      "cache"
+    ],
+    "license": "proprietary",
+    "autoload": {
+      "psr-4": {
+        "Cache\\": "src/"
+      }
+    }
+}
