@@ -19,6 +19,6 @@ class ApcCache implements CacheInterface {
      * @return mixed
      */
     public function retrieve($key){
-        return apc_store($key);
+        return apc_fetch($key);
     }
 }
